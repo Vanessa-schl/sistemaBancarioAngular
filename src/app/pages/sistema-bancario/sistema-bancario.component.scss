@@ -1,8 +1,5 @@
 .toolbar{
   background-color: rgb(168, 145, 11);
-  width: 100vw;
-  padding: 0;
-  display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
@@ -13,9 +10,85 @@
   margin-top: 1rem;
 }
 
+header{
+  background-color: rgb(168, 145, 11);
+  height: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  
+}
+
+.usuarioCima{
+  align-items: center;
+  
+}
+
+.logoGringotes{
+  width: 6rem;
+  height: 6rem;
+  margin-right: 1rem;
+  align-items: center;
+}
+
+main{
+  background-color: black;
+}
+
+.main{
+  display: flex;
+  justify-content: space-between;
+}
+
+.mainTudo{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 1rem;
+  gap: 1rem;
+  box-shadow: 15px solid black;
+}
+
+.inputs{
+  margin-top: 1.5rem;
+  margin-left: 1rem;
+  background-color: black;
+  color: rgb(184, 159, 21)
+}
+
+::placeholder{
+  color: rgb(184, 159, 21);
+}
+
+.botaoAdd{
+  margin-left: 1rem;
+  background-color: black;
+  color: rgb(184, 159, 21);
+}
+
+.dragao1{
+  display: flex;
+  justify-content: end;
+}
+
+.botoes{
+  justify-content: center;
+  align-items: center;
+}
+
+.card{
+  margin-left: 17rem;
+  box-shadow: 7px 7px 7px 7px black;
+  margin-top: 2rem;
+  background-color: rgb(168, 145, 11);
+  border-radius: 8%;
+}
 
 
-
+.dragao{
+  width: 30rem;
+}
 
 
 
